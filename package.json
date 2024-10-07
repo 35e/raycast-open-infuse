@@ -14,9 +14,24 @@
       "mode": "no-view",
       "arguments": [
         {
+          "name": "action",
+          "placeholder": "Select an action",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Save",
+              "value": "save"
+            },
+            {
+              "title": "Play",
+              "value": "play"
+            }
+          ],
+          "required": true
+        },
+        {
           "name": "url",
           "type": "text",
-          "description": "Opens a video from a URL in Infuse",
           "placeholder": "Link to Video",
           "required": true
         }
