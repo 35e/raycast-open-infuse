@@ -10,14 +10,14 @@
     {
       "name": "open-infuse",
       "title": "Open Infuse",
-      "description": "Open a URL in Infuse",
+      "description": "Open a video from a URL in Infuse",
       "mode": "no-view",
       "arguments": [
         {
           "name": "url",
           "type": "text",
-          "description": "The URL to open",
-          "placeholder": "https://example.com",
+          "description": "Opens a video from a URL in Infuse",
+          "placeholder": "Link to Video",
           "required": true
         }
       ]
